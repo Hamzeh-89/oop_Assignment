@@ -13,14 +13,14 @@ and these methods:
 
 
 class student{
-var $studentName="Hamzeh";
+var $studentName;
 var $age;
 var $gender="Male";
 var $mobile='0799624166';
 
-function welcomestudent(){
+function welcomestudent($studentName){
 
-return $this->studentName ;
+return $this->studentName = $studentName ;
 
 }
 
@@ -50,7 +50,7 @@ $x = new student();
 $y = new student();
 $z = new student();
 
-echo "welcome " . $x->welcomestudent(). " to our school";
+echo "welcome " . $x->welcomestudent("Hamzeh"). " to our school";
  
 echo "<br>";
 echo "<hr>";
