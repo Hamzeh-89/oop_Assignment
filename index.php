@@ -31,11 +31,11 @@ return $this->gender;
 function setAge($age) {
     if ( $this->Age = $age > 18) {
             
-            echo " you are not allowed to register here .";
+            echo " you are not allowed to register here your Age $age its above 18 .";
 
     } else {
 
-            $this->welcomestudent();
+            $this->welcomestudent("Hamzeh");
 
     }
     
