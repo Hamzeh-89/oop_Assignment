@@ -1,0 +1,9 @@
+create student class this class should contain these properties: 
+- studentName
+-age
+-gender
+- mobile 
+and these methods:
+ - welcomeStudent($name) // return welcome $name to our school
+- getGender() // return gender
+- setAge($age) // age > 18 ? you are not allowed to register else call method WelcomeStudent()
