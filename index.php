@@ -29,13 +29,14 @@ function getGender(){
 return $this->gender;
 }
 function setAge($age) {
-    if ( $this->Age = $age > 18) {
+	$this->age=$age;
+    if ( $this->age >= 18) {
             
             echo " you are not allowed to register here your Age $age its above 18 .";
 
     } else {
 
-            $this->welcomestudent("Hamzeh");
+          return  $this->welcomestudent("Hamzeh");
 
     }
     
@@ -58,7 +59,7 @@ echo "<hr>";
 echo "Gender : " .$y->getGender();
 echo "<br>";
 echo "<hr>";
-$z->setAge("31");
+echo $z->setAge("3");
 //$z->setAge("10");
 //echo$z->getAge();
 
